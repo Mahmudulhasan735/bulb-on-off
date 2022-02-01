@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bulb_on_off h1 {
+  color: #000;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bulb_on_off {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.bulb_on_off img {
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.switch {
+  width: 75px;
+  height: 116px;
+  background: rgb(173, 171, 171);
+  position: relative;
+  margin: 0 auto;
+  margin-top: 57px;
+}
+
+.main_switch {
+  width: 46px;
+  height: 43px;
+  background: #fff;
+  margin: 0 auto;
+  margin-top: 12px;
+}
+
+
+.main_switch2 {
+  width: 46px;
+  height: 43px;
+  background: #fff;
+  margin: 0 auto;
+  margin-bottom: -15px;
+  border-bottom: 5px solid #505050;
+  border-top: 3px solid rgb(221, 221, 221);
+}
